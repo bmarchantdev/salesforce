@@ -4,7 +4,7 @@
 GET https://your-salesforce-instance.salesforce.com/services/data/v48.0/sobjects/User/{user_id}
 Authorization: Bearer {access_token}
 
-// Step 2: Use the describeGlobal() method to retrieve a list of all objects in your Salesforce instances
+// Step 2: Use the describeGlobal() method to retrieve a list of all objects in your Salesforce instance
 String describeGlobalURL = 'https://your-salesforce-instance.salesforce.com/services/data/v48.0/sobjects';
 HttpResponse describeGlobalResponse = Http.send(new HttpRequest()
     .setMethod('GET')
