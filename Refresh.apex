@@ -4,7 +4,7 @@ String sandboxInstance = 'https://test.salesforce.com';
 // Set the Salesforce Production instance
 String productionInstance = 'https://login.salesforce.com';
 
-// Set the credentials for the Salesforce Production instance
+// Set the credentials for the Salesforce Production instances
 String username = 'Bmarchant@nymtrust.com';
 String password = 'password';
 
